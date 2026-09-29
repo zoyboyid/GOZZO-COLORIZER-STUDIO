@@ -24,7 +24,7 @@ const toastMessage = document.getElementById('toastMessage');
 
 // Character Limit Logic (Solid: 83, Gradient & Rainbow: 131)
 function getMaxLimit() {
-    return currentMode === 'Solid' ? 83 : 131;
+    return currentMode === 'Solid' ? 131 : 83;
 }
 
 function updateLimitUI() {
